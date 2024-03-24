@@ -40,7 +40,7 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, I love spending
         time with my wife and son, watching news in IT-sphere and AI. I love{" "}
         <span className="font-medium">swimming and traveling</span>. I respect
-        people who value family and know how
+        people who value family and know how{" "}
         <span className="font-medium">
           to balance professional and personal development
         </span>
