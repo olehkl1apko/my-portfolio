@@ -3,10 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaTasks } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
+import dashboard from "@/public/dashboard.png";
+import gameHub from "@/public/game-hub.png";
 import issueTracker from "@/public/issue-tracker.jpeg";
 import onlineStore from "@/public/online-store.png";
-import gameHub from "@/public/game-hub.png";
-import dashboard from "@/public/dashboard.png";
 
 export const links = [
   {
@@ -37,17 +37,24 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Sense bank",
+    location: "Kyiv, Ukraine",
+    description: "I work as Head of Project in retail banking",
+    icon: createElement(FaReact),
+    date: "May 2024 - present",
+  },
+  {
     title: "Incode Group",
     location: "Kyiv, Ukraine",
     description: "I work as a front-end developer. My stack is React/NextJS",
     icon: createElement(FaReact),
-    date: "February 2024 - present",
+    date: "February 2024 - May 2024",
   },
   {
     title: "Self-employed",
     location: "Kyiv, Ukraine",
     description:
-      "I graduated after 1 year of studying. I immediately found a job as a full-stack developer in Zapchastiulka project.",
+      "I graduated after 1 year of studying. I immediately found a job as a full-stack developer in Zapchastiulka project",
     icon: createElement(CgWorkAlt),
     date: "June 2023 - February 2024",
   },
@@ -93,20 +100,20 @@ export const projectsData = [
     link: "https://github.com/olehkl1apko/game-hub",
   },
   {
-    title: "Issue Tracker",
-    description: "Pet-project - manage your issues in the best way",
+    title: "Expenses Tracker Saas",
+    description: "Pet-project - manage your expenses in the best way",
     tags: [
       "nextjs",
-      "next-auth",
-      "mysql",
+      "kinde-auth",
+      "postgres",
       "prisma",
       "tailwind",
-      "zod",
-      "radix-ui",
-      "recharts-js",
+      "stripe",
+      "ngrok",
+      "posthog",
     ],
     imageUrl: issueTracker,
-    link: "https://github.com/olehkl1apko/issue-tracker",
+    link: "https://github.com/Oleh-Kliapko/expenses-tracker-saas",
   },
   {
     title: "Dashboard",
